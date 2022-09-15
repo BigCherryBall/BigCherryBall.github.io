@@ -15,12 +15,23 @@
         html
         {
             width: 100%;
-            height: 200%;
+            height: 250%;
+        }
+
+        @keyframes fix{
+            from{opacity: 0;}
+            to{opacity: 100;}
+        }
+
+        t,p{
+            animation: 2s fix;
         }
     </style>
 </head>
 <body>
     <img src="1.jpg"/>
-    <p>这是我的第一个网页</p>
+    <t>这是我的第一个网页</t>
+    <p>床前明月光</p>
+    <p>疑是地上霜</p>
 </body>
 </html>
